@@ -12,9 +12,9 @@
 <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
-<body>
-    <header class="">
-        <div class="navbar bg-base-100">
+<body class="w-full">
+    <header class="mx-30 bg-[#FDFCFA] mb-14">
+        <div class="navbar bg-base-100 bg-[#FDFCFA]">
             <div class="navbar-start">
               <div class="dropdown">
                 
@@ -46,13 +46,26 @@
                     stroke-width="2"
                     d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
-             <button class=" outline-none">
+             <button class=" outline-none mx-2 p-3 rounded-full hover:bg-[#dddddde0]">
                 <img src="image/Group.png" alt="">
              </button>
-             <button class="border py-2 px-5 ring-1 ring-[#179800] mx-3 rounded-md w-28 hidden lg:block md:block" >Login</button>
-             <button class="mx-2 bg-[#179800] py-2 px-5 rounded-md w-36 text-white hidden lg:block md:block">Regster</button>
+             <button class="border py-2 px-5 ring-1 ring-[#179800] mx-3 rounded-md w-28 hidden lg:block md:block  text-[#111111] hover:bg-[#47a536] hover:text-white"  >Login</button>
+             <button class="mx-2 bg-[#179800] py-2 px-5 rounded-md w-36 text-white hidden lg:block md:block hover:bg-[#26611c]">Regster</button>
             </div>
           </div>
+
+          <!-- banner -->
+           <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 mx-28 text-center">
+            <!-- banner-text -->
+             <div class="grid grid-cols-1 space-y-4 mt-24">
+               <h1 class="text-5xl font-semibold space-y-10 line leading-[1.2]">Freshness <span class="text-[#179800]">You Can</span> <br><span class="text-[#179800]">Count</span> On, Prices You’ll Love!</h1>
+                <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+             </div>
+             <!-- banner image -->
+              <div class=" lg:px-32 md:px-30">
+                <img src="image/hero-vegetables.png" alt="">
+              </div>
+           </div>
     </header>
     
 </body>
