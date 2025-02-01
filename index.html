@@ -10,123 +10,57 @@
      
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
-
+<!-- cdn font awoseme -->
+<script src="https://kit.fontawesome.com/24b070592b.js" crossorigin="anonymous"></script>
+<!-- cdn google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+<!-- style font -->
+ <style>
+    .font-sora{
+        font-family: "Sora", serif;
+    }
+ </style>
 </head>
-<body class="w-full">
-    <header class="mx-30 bg-[#FDFCFA] mb-14">
-        <div class="navbar bg-base-100 bg-[#FDFCFA]">
-            <div class="navbar-start">
-              <div class="dropdown">
-                
-                <!-- nav left -->
-                 <div class="mt-3 ml-4">
-                <img src="image/logo-header.png" alt="">    
-                 
-                 </div>
-              </div>
-            </div>
-            <!-- navbar middle link -->
-            <div class="navbar-center lg:block md:block hidden">
-              <a class="btn btn-ghost text-xl">Product</a>
-              <a class="btn btn-ghost text-xl">Services</a>
-              <a class="btn btn-ghost text-xl">Contact us</a>
-            </div>
-            <div class="navbar-end">
-                <!-- nav right -->
-              <button class="btn btn-ghost btn-circle">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
-             <button class=" outline-none mx-2 p-3 rounded-full hover:bg-[#dddddde0]">
-                <img src="image/Group.png" alt="">
-             </button>
-             <button class="border py-2 px-5 ring-1 ring-[#179800] mx-3 rounded-md w-28 hidden lg:block md:block  text-[#111111] hover:bg-[#47a536] hover:text-white"  >Login</button>
-             <button class="mx-2 bg-[#179800] py-2 px-5 rounded-md w-36 text-white hidden lg:block md:block hover:bg-[#26611c]">Regster</button>
-            </div>
-          </div>
+<body class="font-sora">
+    <header class="max-w-full bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
+        <!-- nav -->
+         <div class="container mx-auto flex flex-row lg:flex-row md:flex-row lg:justify-between items-center h-20 justify-between border lg:border-hidden md:border-hidden border-b-green-400 ">
+         <!-- logo -->
+          <img class="" src="image/logo-header.png" alt="">
 
-          <!-- banner -->
-           <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 mx-28 text-center">
-            <!-- banner-text -->
-             <div class="grid grid-cols-1 space-y-4 mt-24">
-               <h1 class="text-5xl font-semibold space-y-10 line leading-[1.2]">Freshness <span class="text-[#179800]">You Can</span> <br><span class="text-[#179800]">Count</span> On, Prices You’ll Love!</h1>
-                <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
-             </div>
-             <!-- banner image -->
-              <div class=" lg:px-32 md:px-30">
-                <img src="image/hero-vegetables.png" alt="">
-              </div>
+          <!-- middle nav link -->
+           <div class="flex flex-row lg:gap-5 md:gap-3 text-xl hidden lg:block md:block lg:w-2/4/  space-x-4 md:ml-16">
+
+        
+            <a href="">Product</a>
+            <a href="">Services</a>
+            <a href="">Contact us</a>
            </div>
-    </header>
-    <!-- main section -->
-     <main class="w-full my-16">
-        <!-- Services section -->
-         <div class="w-full px-28">
-            <h1 class="font-semibold text-4xl text-[#179800] mb-5">Services</h1>
-            <!-- card section -->
-            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:px lg:gap-2 md:gap-5 gap-5">
-                <!-- div1 card -->
-                <div class="card bg-base-100 w-82  bg-[#EFEBE3]">
-                    <figure class="px-5 pt-5 w-32 h-32 bg-white rounded-full ml-28 mt-8">
-                      <img
-                        src="image/service.png"
-                        class="rounded-xl" />
-                    </figure>
-                    <div class="card-body items-center text-center">
-                      <h2 class="card-title">24/7 Services </h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <div class="card-actions">
-                        
-                      </div>
-                    </div>
-                  </div>
 
-                   <!-- div2 card -->
-                <div class="card bg-base-100 w-82   bg-[#EFEBE3] ">
-                    <figure class="px-5 pt-5 w-32 h-32 bg-white rounded-full ml-28 mt-8">
-                      <img
-                        src="image/delivery.png"
-                        class="rounded-xl" />
-                    </figure>
-                    <div class="card-body items-center text-center">
-                      <h2 class="card-title">24/7 Services </h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <div class="card-actions">
-                        
-                      </div>
-                    </div>
-                  </div>
-
-                   <!-- div3 card -->
-                <div class="card bg-base-100 w-82  bg-[#EFEBE3]">
-                    <figure class="px-5 pt-5 w-32 h-32 bg-white rounded-full ml-28 mt-8">
-                      <img
-                        src="image/healthy.png"
-                        class="rounded-xl" />
-                    </figure>
-                    <div class="card-body items-center text-center">
-                      <h2 class="card-title">24/7 Services </h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <div class="card-actions">
-                        
-                      </div>
-                    </div>
-                  </div>
-
-            </div>
-   
+           <!-- end nav -->
+            <div class="flex flex-row lg:flex-row md:flex-row">
+             <div class="flex flex-row lg:flex-row md:flex-row space-x-2 items-center">
+              <img class="  hover:bg-[#dddddde0] hidden lg:block md:block w-10 h-10 p-2 rounded-full cursor-pointer" src="image/search-regular-24.png" alt="">
+              <img class="hidden lg:block md:block  rounded-full cursor-pointer w-10 h-10 p-2 hover:bg-[#dddddde0]" src="image/cart-alt-regular-24.png" alt="">
+              <button class="hidden lg:block md:block border py-2 px-5 ring-1 ring-[#179800] mx-3 rounded-md hover:bg-green-600 text-[#111111]">Login</button>
+              <!-- register buttuon -->
+              <button class="hidden lg:block md:block border py-3 px-5  mx-3 rounded-md bg-green-600 hover:bg-green-800 text-white w-40 hidden lg:block md:block text-sm">Register</button>
+             </div>
+             <img class="lg:hidden md:hidden block pr-2 " src="image/bars-3.png" alt="">
+            
+                </div>
          </div>
-
-         <!--  -->
-     </main>
+<!-- banner section header -->
+ <section class="container mx-auto my-16">
+ <!-- banner text -->
+  <div class="text-center space-y-3 px-3">
+    <h1 class="text-6xl font-semibold leading-normal">Freshness <span class="text-[#179800]">You Can</span> <br> <span class="text-[#179800]">Count</span> On, Prices You’ll Love!</h1>
+    <p class="text-[20px] text-[#111111]">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+    <img class="mx-auto" src="image/hero-vegetables.png" alt="">
+  </div>
+ </section>
+    </header>
 </body>
 </html>
